@@ -1,0 +1,81 @@
+/* Global Styles*/
+
+body {
+    margin:0 ;
+    font-size: 21px;
+    background-color: #C2F970;
+    font-family: sans-serif;
+}
+
+/* Typography*/
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 24px;
+    text-align: center;
+    overflow-wrap: break-word;
+    fill-opacity: 0.5;
+}
+h4{
+    text-align: center;
+    align-items: flex-start;
+}
+img {
+    align-self: center;
+}
+
+/* Layout*/
+
+
+header {
+    background-color: #564D80;
+    color: white;
+    text-align: center;
+
+    }
+table{
+    display: flex;
+    justify-content: center;
+    border: 0px 100px;
+    
+    
+}
+
+tr{
+    display: flex;
+}
+
+td{
+    border: 10px solid #98A6D4;
+    padding: 10px;
+    height: 350px;
+    width:450px;
+    ;
+    
+}
+p{
+    word-wrap: break-word;
+    line-break:initial;
+}
+
+.fruit {
+    border: dotted #44344F;
+    height: 250px;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:20px;
+    text-align: center;
+    
+
+}
+.fruitcollection {
+    display: flex;
+    align-items: baseline 
+}
